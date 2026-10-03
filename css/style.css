@@ -3479,10 +3479,11 @@ body.finale-particles .finale-fallback {
 
 .timeline-title {
   text-align: center;
-  color: #7a3e3e;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  color: #7a3e3e; /* Same warm burgundy color as "The Wedding" */
+  font-family: var(--f-display); /* Same display font as "The Wedding" */
+  font-size: 2.2rem;
+  font-weight: normal;
+  text-transform: none; /* Keeps the natural script/display casing */
   margin-bottom: 1.5rem;
 }
 
