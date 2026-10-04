@@ -3599,3 +3599,27 @@ body.finale-particles .finale-fallback {
   font-size: 0.65rem !important;
   letter-spacing: 1px !important;
 }
+
+/* ==========================================================================
+   MULTI-VENUE CARD CONTAINER
+   ========================================================================== */
+.venue-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.venue-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.venue-info {
+  padding: 1.5rem;
+  text-align: left;
+}
