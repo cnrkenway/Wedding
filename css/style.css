@@ -3600,3 +3600,25 @@ body.finale-particles .finale-fallback {
   letter-spacing: 1px !important;
 }
 
+/* ==========================================================================
+   VENUE GRID & CARD CENTER ALIGNMENT FIX
+   ========================================================================== */
+.venue-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 2rem !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  margin: 0 auto !important; /* Centers the container horizontally */
+  padding: 0 1rem !important;
+  box-sizing: border-box !important;
+}
+
+.venue-card {
+  width: 100% !important;
+  margin: 0 auto !important; /* Ensures each card stays perfectly centered */
+  box-sizing: border-box !important;
+}
+
