@@ -3622,3 +3622,11 @@ body.finale-particles .finale-fallback {
   box-sizing: border-box !important;
 }
 
+/* Crop the top edge of the top hero image */
+.hero-image, 
+.section-bg, 
+img.hero-bg {
+  object-fit: cover !important;
+  object-position: bottom center !important; /* Shifts image down to hide top black edge */
+  margin-top: 0 !important;
+}
