@@ -3622,11 +3622,20 @@ body.finale-particles .finale-fallback {
   box-sizing: border-box !important;
 }
 
-/* Crop the top edge of the top hero image */
-.hero-image, 
-.section-bg, 
-img.hero-bg {
-  object-fit: cover !important;
-  object-position: bottom center !important; /* Shifts image down to hide top black edge */
+/* ==========================================================================
+   TOP BLACK BAR REMOVAL & HEADER BACKGROUND FIX
+   ========================================================================== */
+html, body {
+  background-color: #fcf9f2 !important; /* Soft ivory/cream to match your card */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+header, 
+.hero, 
+.hero-section, 
+.scene:first-of-type {
+  background-color: transparent !important;
   margin-top: 0 !important;
+  padding-top: 0 !important;
 }
